@@ -1,5 +1,5 @@
 #link-btn {
-  background-color: white;
+  background-color: black;
   width: fit-content;
   padding: 12px 100px;
   font-weight: bold;
@@ -7,7 +7,7 @@
   border-radius: 15px;
   cursor: pointer;
   text-decoration: none;
-  color: black;
+  color: white;
 }
 #links {
   display: flex;
