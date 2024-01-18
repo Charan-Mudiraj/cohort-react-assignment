@@ -1,0 +1,18 @@
+#link-btn {
+  background-color: white;
+  width: fit-content;
+  padding: 12px 100px;
+  font-weight: bold;
+  font-size: 26px;
+  border-radius: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+#links {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  gap: 20px;
+}

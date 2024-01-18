@@ -1,0 +1,19 @@
+#colors-div {
+  display: flex;
+  gap: 20px;
+  box-shadow: 0 0 5px 1px rgba(128, 128, 128, 0.596);
+  padding: 7px 10px;
+  border-radius: 10px;
+  width: fit-content;
+  margin: auto;
+  background-color: white;
+  position: fixed;
+  bottom: 20px;
+  right: 0;
+  left: 0;
+}
+.clrBtn {
+  padding: 5px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}

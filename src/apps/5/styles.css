@@ -1,0 +1,90 @@
+body {
+  background-color: white;
+}
+#g-content > center > img {
+  height: 100px;
+  border-radius: 100px;
+  outline: 6px solid white;
+}
+#g-loc img {
+  height: 13px;
+  margin-right: 5px;
+}
+#g-btn img {
+  height: 40px;
+}
+#g-banner {
+  background-color: rgb(32, 32, 32);
+  height: 130px;
+  width: 350px;
+  border-radius: 40px 40px 0 0;
+}
+#g-card {
+  box-shadow: 0 0 5px 1px gray;
+  width: fit-content;
+  border-radius: 40px;
+  margin: 25px auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#g-name,
+#g-bio {
+  text-align: center;
+}
+#g-content {
+  position: relative;
+  top: -50px;
+  font-weight: bold;
+  color: rgb(32, 32, 32);
+  font-size: 18px;
+}
+#g-content > div {
+  margin-left: 15px;
+}
+#g-btn {
+  background-color: rgb(32, 32, 32);
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 30px;
+  margin: auto;
+  width: fit-content;
+  position: relative;
+  top: -20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+#g-get {
+  text-align: center;
+  margin: 20% auto;
+  box-shadow: 0 0 5px 1px gray;
+  width: fit-content;
+  padding-bottom: 20px;
+  border-radius: 20px;
+}
+#g-get div {
+  background-color: rgb(32, 32, 32);
+  color: white;
+  padding: 5px 40px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px 20px 0 0;
+}
+#g-get input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(32, 32, 32);
+  margin-left: 20px;
+}
+#g-get button {
+  background-color: rgb(32, 32, 32);
+  color: white;
+  margin-left: 10px;
+  margin-right: 20px;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}

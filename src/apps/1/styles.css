@@ -1,0 +1,38 @@
+.avatar img {
+  height: 90px;
+  border-radius: 50px;
+}
+.banner {
+  background-color: purple;
+  height: 150px;
+  width: 400px;
+}
+.profile {
+  width: fit-content;
+  margin: 50px auto;
+  background-color: rgb(235, 235, 235);
+  border-radius: 40px;
+  box-shadow: 0 0 10px 5px rgba(128, 128, 128, 0.568);
+}
+.banner {
+  border-radius: 40px 40px 0 0;
+}
+.profile-details {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: -50px;
+}
+hr {
+  border: 1px solid rgba(0, 0, 0, 0.281);
+  width: 85%;
+}
+.social-flex {
+  display: flex;
+  text-align: center;
+  gap: 100px;
+}
+.place {
+  margin-bottom: 50px;
+}
